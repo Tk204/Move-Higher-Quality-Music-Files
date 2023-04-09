@@ -1,20 +1,20 @@
-Move Higher Quality Music Files
-Description
+# **Move Higher Quality Music Files**
+# Description
 
 This repository contains a Python script that allows you to easily move higher quality music files to a new location. The script scans a source folder for music files and compares their quality to files with the same name in a destination folder. If a higher quality version of a file is found in the source folder, it is moved to the destination folder. The script supports several file formats, including FLAC, WAV, MP3, and M4A, and uses the mutagen library to read metadata from the music files. The script includes a simple GUI built with Tkinter that allows users to select the source and destination folders.
-Installation
+# **Installation**
 
 To use this script, you will need to have Python 3 installed on your system, as well as the mutagen library. You can install mutagen using pip:
 
 pip install mutagen
 
-Usage
+# **Usage**
 
 To use the script, simply run the move_higher_quality_files_ui.py file with Python:
 
 python move_higher_quality_files_ui.py
 
 This will launch the GUI, which allows you to select the source and destination folders and move the higher quality music files.
-License
+# **License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
